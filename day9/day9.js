@@ -19,7 +19,7 @@ body.append(newbody);
 
 //<--Task4:
 
-let oldlist=document.getElementById("4")
+let oldlist=document.getElementById("#4")
 let li=createElement(li);
 li.innertext="strawberry";
 oldlist.append(li);
@@ -27,7 +27,7 @@ oldlist.append(li);
 //Activity3:Removing Elements
 
 //<--Task5:
-let c=document.getElementById("5");
+let c=document.getElementById("#5");
 c.remove();
 
 //<--Task6:
@@ -43,12 +43,12 @@ for(let i of url)
 
 //<--Task8:
 function addClass(){
-    let element=document.getElementById("4");
+    let element=document.getElementById("#4");
     element.classList.add("hey");
 }
 
 function remove(){
-    let element=document.getElementById("4");
+    let element=document.getElementById("#4");
     element.classList.remove("highlight");
 }
 
@@ -56,7 +56,7 @@ function remove(){
 
 //<--Task9:
 function changeparagrapghtext() {
-    var paragraph = document.getElementById("1");
+    var paragraph = document.getElementById("#1");
     paragraph.textContent = "changed!";
   }
 document.addEventListener("new",function() {
@@ -66,11 +66,11 @@ document.addEventListener("new",function() {
 
 //<--Task 10:
 function changeBorderColor() {
-    var element = document.getElementById("4");
+    var element = document.getElementById("#4");
     element.style.borderColor = "red";
   }
   document.addEventListener("new", function() {
-    var element = document.getElementById("4");
+    var element = document.getElementById("#4");
     element.addEventListener("mouseover", changeBorderColor);
   });
   
